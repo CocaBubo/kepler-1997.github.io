@@ -4,114 +4,94 @@
     <meta charset="utf-8" >
 
 <title>【半小时漫画中国史】妙趣横生 | Kepler1997</title>
+<meta name="description" content="少年的时光就是晃，用大把时间彷徨，只用几个瞬间成长">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://kepler-1997.github.io/favicon.ico?v=1593950646590">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://kepler-1997.github.io/favicon.ico?v=1593949856044">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://kepler-1997.github.io/styles/main.css">
 
 
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
-
-    <meta name="description" content="听说这个是摘要？？
-
-两晋
-
-司马家族很奇怪，别人一家人坐一起玩牌，他们一家人坐一起玩儿命，打仗专挑自家人，是一个用生命在相处的家庭。
-司马睿：你们休要猖狂，豆包也是干粮
-历史上这种只懂业务不懂职场的体能型员工，病死都算是最好的下场，不信你..." />
-    <meta name="keywords" content="妙趣横生" />
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://kepler-1997.github.io">
-        <img src="https://kepler-1997.github.io/images/avatar.png?v=1593949856044" class="site-logo">
-        <h1 class="site-title">Kepler1997</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://kepler-1997.github.io">Kepler1997</a></h3>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
         
-          <a class="social-link" href="https://github.com/Kepler-1997" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-          <a class="social-link" href="//weibo.com/Kepler1997" target="_blank">
-            <i class="fab fa-weibo"></i>
-          </a>
-        
-      
-        
-          <a class="social-link" href="zhihu.com/people/kepler1997" target="_blank">
-            <i class="fab fa-zhihu"></i>
-          </a>
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      少年的时光就是晃，用大把时间彷徨，只用几个瞬间成长
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://kepler-1997.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
-
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">【半小时漫画中国史】妙趣横生</h2>
-            <div class="post-date">2020-04-29</div>
+          <li>
             
-            <div class="post-content" v-pre>
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>【半小时漫画中国史】妙趣横生</h1>
+            <p class="article-meta">
+              2020-04-29
+              
+                <a href="https://kepler-1997.github.io/tag/NUSxAIcI3/" class="badge ">
+                  妙趣横生
+                </a>
+              
+            </p>
+            
+            <div class="post-content">
               <p>听说这个是摘要？？</p>
 <!-- more -->
 <h2 id="两晋">两晋</h2>
@@ -122,54 +102,110 @@
 </ol>
 
             </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://kepler-1997.github.io/tag/NUSxAIcI3/" class="tag">
-                    妙趣横生
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://kepler-1997.github.io/post/trump/">
-                  <h3 class="post-title">
-                    Trump
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-
-          </div>
-
+          </article>
         </div>
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://kepler-1997.github.io/post/trump/">
+                <h3 class="post-title">
+                  Trump
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
       </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://kepler-1997.github.io/images/avatar.png?v=1593950646590" class="no-responsive avatar">
+    <div class="text-muted">少年的时光就是晃，用大把时间彷徨，只用几个瞬间成长</div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://kepler-1997.github.io/post/ban-xiao-shi-man-hua-zhong-guo-shi-miao-qu-heng-sheng/">【半小时漫画中国史】妙趣横生</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kepler-1997.github.io/post/trump/">Trump</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kepler-1997.github.io/post/about/">关于</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://kepler-1997.github.io/post/hello-gridea/">Hello Gridea</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://kepler-1997.github.io/tag/NUSxAIcI3/" class="badge warning">
+          妙趣横生
+        </a>
+      
+        <a href="https://kepler-1997.github.io/tag/bK6uIhZdC/" class="badge ">
+          Gridea
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://kepler-1997.github.io/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 <script type="application/javascript">
 
 AOS.init();
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+hljs.initHighlightingOnLoad()
 
 </script>
-
-
-  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad()
-  </script>
-
 
 
 
